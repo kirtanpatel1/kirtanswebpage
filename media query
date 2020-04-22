@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>kirtans webpage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        @media (min-width: 500px) {
+            h1::after{
+                content:"welcome to my webpage";
+            }
+        }
+
+        @media (max-width: 499px) {
+            body {
+                background-color: red;
+            }
+            h1::after{
+            background-color: yellow;
+            content:"welcome redzone";
+            }
+        }
+    </style>
+</head> 
+<body>
+    <h1></h1>
+</body>
+</html>
